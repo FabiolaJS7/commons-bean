@@ -1,18 +1,19 @@
 package com.bootcamp.commons.bean.products;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class AdditionalPersonBean {
+public class CreditCardBean {
 
-    private String fullName;
-    private String email;
-    private String phone;
-    private IdentificationBean identification;
+    private String number;
+    private LocalDate expirationDate;
 }
