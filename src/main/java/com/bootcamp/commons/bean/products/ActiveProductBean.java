@@ -13,7 +13,7 @@ public class ActiveProductBean {
 
     private Boolean hasCreditCard;
     private Double creditLimit;
-    private Double creditLimitEnabled;
     private Double creditLimitUsed;
+    private Double creditBalance;
     private CreditCardBean creditCard;
 }

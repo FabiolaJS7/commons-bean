@@ -5,14 +5,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreditCardBean {
+public class BalanceBeanResponse {
+    private Double balanceAmount;
+    private Double creditLimit;
+    private Double creditLimitUsed;
+    private String result;
 
-    private String number;
-    private LocalDate expirationDate;
 }
