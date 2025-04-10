@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.bootcamp</groupId>
 	<artifactId>commons-bean</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<name>commons-bean</name>
 	<description>Commons object</description>
 	<url/>
