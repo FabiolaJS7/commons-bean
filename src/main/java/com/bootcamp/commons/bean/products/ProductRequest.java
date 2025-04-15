@@ -1,5 +1,6 @@
 package com.bootcamp.commons.bean.products;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,13 +14,10 @@ import java.util.List;
 @NoArgsConstructor
 public class ProductRequest {
 
-
     private String productType;
-    private String familyProduct;
     private String userBank;
+    private Double amountOfOpen;
     private CustomerBean customer;
-    private ActiveProductBean activeProduct;
-    private PassiveProductBean passiveProduct;
-    private List<AdditionalPersonBean> holders = null;
-    private List<AdditionalPersonBean> authorizedSignatories = null;
+    private List<AdditionalPersonBean> holders;
+    private List<AdditionalPersonBean> authorizedSignatories ;
 }

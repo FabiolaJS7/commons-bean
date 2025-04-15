@@ -10,9 +10,11 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BalanceBeanResponse {
-    private Double balanceAmount;
+
     private Double creditLimit;
     private Double creditLimitUsed;
-    private String result;
+    private Double creditEnabledToUse;
+    private Double totalAmountInAccount;
+    private String resultMovement;
 
 }

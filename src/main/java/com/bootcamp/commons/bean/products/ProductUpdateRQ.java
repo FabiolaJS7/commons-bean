@@ -1,6 +1,5 @@
 package com.bootcamp.commons.bean.products;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,9 +14,10 @@ import java.util.List;
 public class ProductUpdateRQ {
 
     private String actionToUpdate;
-    private String status;
-    private ActiveProductBean activeProduct;
-    private PassiveProductBean passiveProduct;
+    private String statusProduct;
+    private Boolean hasPlasticCard;
+    private String plasticCardId;
     private List<AdditionalPersonBean> holders;
     private List<AdditionalPersonBean> authorizedSignatories;
+
 }

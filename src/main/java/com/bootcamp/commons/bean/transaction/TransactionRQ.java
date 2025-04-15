@@ -17,6 +17,7 @@ public class TransactionRQ {
     private Double amountMoved;
     private String movementType;
     private String result;
+    private String observation;
     private String customerId;
     private Double commissionAmount;
 }

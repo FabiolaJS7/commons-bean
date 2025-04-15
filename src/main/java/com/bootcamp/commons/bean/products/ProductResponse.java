@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 @Getter
@@ -16,12 +16,13 @@ public class ProductResponse {
 
         private String id;
         private String productType;
-        private String status;
-        private String family;
-        private Date createdDate;
+        private Double amountOfOpen;
+        private String accountNumber;
+        private Boolean hasPlasticCard;
+        private String cardNumber;
+        private LocalDate createdDate;
         private CustomerBean customer;
-        private ActiveProductBean activeProduct;
-        private PassiveProductBean passiveProduct;
         private List<AdditionalPersonBean> holders;
         private List<AdditionalPersonBean> authorizedSignatories;
+
 }

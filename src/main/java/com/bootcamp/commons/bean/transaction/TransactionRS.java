@@ -1,6 +1,5 @@
 package com.bootcamp.commons.bean.transaction;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,6 +14,7 @@ import java.time.LocalDate;
 public class TransactionRS {
 
     private String id;
+    private String transactionNumber;
     private String productType;
     private String productId;
     private Double amount;
